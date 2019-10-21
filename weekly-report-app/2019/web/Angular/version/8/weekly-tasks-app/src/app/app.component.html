@@ -1,0 +1,31 @@
+<div class="container"> 
+  
+  <p>Weekly Tasks</p>
+
+</div>
+
+<div class="container">
+  <div *ngFor="let weekday of week_days">
+      <div >
+        <div>
+          <p> {{weekday.day}}</p>
+        </div>
+
+       
+        <div *ngFor="let t of weekday.count">
+            <button (click)="delete_task(weekday.day,weekday.count,t)" class="btn btn-primary">- Delete</button>
+
+            <app-task></app-task>
+        </div>
+        <br>
+        <div class="d-flex justify-content-center">
+          <button (click)="add_new_task(weekday.day)" class="btn btn-primary">+ Add</button>
+        </div>
+      </div>
+
+
+  </div>
+
+
+</div>
+
