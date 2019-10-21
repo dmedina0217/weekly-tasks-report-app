@@ -1,0 +1,37 @@
+app_uses:
+-create weekly report of tasks
+
+
+development_notes below:
+
+datetime.isoweekday()
+Return the day of the week as an integer, where Monday is 1 and Sunday is 7. The same as self.date().isoweekday(). See also weekday(), isocalendar().
+
+
+return how many days left in workweek
+workweek = 1,2,3,4,5
+weekend = 6,7
+
+getcurrentday = date.today().isoweekday()
+workday = false
+if getcurrentday > 5:
+	workday = false
+else:
+ workday = true
+
+if workday:
+
+else:
+	print(today is part of the weekend and the weekend has no work!)
+	print(date.today().ctime())
+
+
+Name
+Daniel Medina
+
+weekly tasks:
+Monday
+tuesday
+wednesday
+thurs
+friday

@@ -1,0 +1,67 @@
+Weekly Report/Tasks
+Daniel Medina
+
+MONDAY 10/21/2019
+1.Name: work on remaining ar tasks
+Details: ask gordon to verify if any tasks remain. If no tasks remain, ask for more tasks from Gordon or Less
+
+2.Name: azure pluralsight videos
+Details: work on azure developer roadmap
+
+3.Name: finish q3 review
+Details: finish q3 review before it expires
+
+
+TUESDAY 10/22/2019
+1.Name: work on ar items
+Details: if any remain, if not move on and make sure latest code is pushed
+
+2.Name: azure pluralsight videos
+Details: work on developer roadmap
+
+3.Name: pum production error
+Details: investigate pum production error so it could be faster when deploying the next time
+
+4.Name: work on any new tasks
+Details: work on new tasks assigned since no AR tasks exist 
+
+5.Name: prepare for head to head with less
+Details: make sure report has been emailed
+
+6.Name: send iship an email regarding sra questions
+Details: send iship an email regarding sra questions about pum production environment
+
+
+WEDNESDAY 10/23/2019
+1.Name: azure pluralsight videos
+Details: developer roadmap
+
+2.Name: pum production error
+Details: work if error still not found
+
+3.Name: work on any new tasks assigned
+Details: if no ar tasks assigned, then work on the new ones assigned
+
+
+THURSDAY 10/24/2019
+1.Name: azure pluralsight videos
+Details: developer roadmap
+
+2.Name: any new tasks assigned
+Details: work on assigned tasks
+
+
+FRIDAY 10/25/2019
+1.Name: azure pluralsight videos
+Details: developer roadmap
+
+2.Name: new tasks assigned
+Details: work on tasks assigned
+
+3.Name:  pum production error
+Details: work on pum production error if it still exists
+
+4.Name: follow up on sra and iship questions
+Details: follow up sra and iship questions and see where it stands
+
+
