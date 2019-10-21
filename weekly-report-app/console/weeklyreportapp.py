@@ -15,7 +15,7 @@ class weeklyreport:
     default_username_from_file = str()
     developer="Daniel Medina"
     title="Weekly Tasks"
-    description="Print out tasks for work days MONDAY - FRIDAY"
+    description="Print out tasks for days MONDAY - FRIDAY"
     output_filename = ""
     output_filename_path = ""
 
@@ -54,7 +54,7 @@ class weeklyreport:
             print()
             print(f"{d} Task")
             task_name_input = self.input_check("Task Name: ")
-            new_task.task_day = d
+            new_task.task_day = f"[{d}]"
             new_task.tasks = []
             while task_name_input.lower() != "exit":
                 task_description_input = self.input_check(f"Description: ")
@@ -139,17 +139,10 @@ class weeklyreport:
         self.output_filename_path = _filename
         self.output_filename = _dayf
 
-        self.write_report.write_output_file_tasks(_filename,self.list_of_tasks,self.developer,self.weekly_calender.todays_date_pretty)
+        self.write_report.write_output_file_tasks(_filename,self.list_of_tasks,self.developer,self.weekly_calender.todays_date_pretty,self.title)
 
     def ask_for_report_title(self):
-        self.title = input(str("What is the report title you want to use when you finish entering tasks? Default is Weekly Tasks: "))
-        print()
-        confirm = f"Report title is: {self.title}. Is that correct?(y/n)"
-        yesno = input(str(confirm))
-        while yesno.lower() == "n":
-            self.title = input(str("What is the report title you want to use when you finish entering tasks? Default is Weekly Tasks: "))
-            confirm = f"Report title is: {self.title}. Is that correct?(y/n)"
-            yesno = input(str(confirm))
+        self.title = self.input_check("Enter Generated Report title: ")
 
     def newuserpath(self):
         self.create_defaultuser_directory()
